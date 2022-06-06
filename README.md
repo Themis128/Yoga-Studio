@@ -1,5 +1,5 @@
 Dimension Yoga Studio - website
-##### Commercial website for yoga studio
+##### Yoga Studio Website Design
 
 
 ### Introduction
