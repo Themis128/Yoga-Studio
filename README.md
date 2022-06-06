@@ -1,4 +1,4 @@
-#Dimension Yoga Studio - website
+Dimension Yoga Studio - website
 ##### Commercial website for yoga studio
 
 
