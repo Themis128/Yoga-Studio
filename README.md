@@ -13,4 +13,7 @@ Dimension Yoga Studio - website
 - JavaScript
 - JQuery
 
-![yoga](https://www.canva.com/design/DAFCrT_wyJc/4f87uogCIHgX5ulYbjnRFA/watch?utm_content=DAFCrT_wyJc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+![yoga site](https://github.com/zaynahshabo/Yoga-Studio-Website/blob/main/main.png)
+![yoga classes](https://github.com/zaynahshabo/Yoga-Studio-Website/blob/main/classes.png)
+![yoga teachers](https://github.com/zaynahshabo/Yoga-Studio-Website/blob/main/bio.png)
+![schedule](https://github.com/zaynahshabo/Yoga-Studio-Website/blob/main/schedule.png)
