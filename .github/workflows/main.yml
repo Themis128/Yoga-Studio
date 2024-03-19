@@ -23,4 +23,4 @@ jobs:
       run: aws s3 rm s3://laskaridissa.com --recursive
       
     - name: Sync repository content to S3
-      run: aws s3 sync ./path/to/your/static/files s3://laskaridissa.com/
+      run: aws s3 sync . s3://laskaridissa.com/
