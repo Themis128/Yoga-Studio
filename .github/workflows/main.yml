@@ -3,7 +3,7 @@ name: Clear and Deploy Static Site to S3
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy-to-s3:
