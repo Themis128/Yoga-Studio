@@ -8,19 +8,26 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
     <style>
-        /* Custom CSS for Background Image */
         body, #bg {
             background: url('images/bg.jpg') no-repeat center center fixed;
             background-size: cover;
+        }
+        .image.main img {
+            width: 80%;
+            display: block;
+            margin: 20px auto;
+        }
+        .image.secondary img {
+            width: 60%;
+            display: block;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body class="is-preload">
 
-    <!-- Wrapper -->
     <div id="wrapper">
 
-        <!-- Header -->
         <header id="header">
             <div class="logo">
                 <span class="icon fa-gem"></span>
@@ -41,72 +48,49 @@
             </nav>
         </header>
 
-        <!-- Main -->
         <div id="main">
 
-            <!-- Schedule -->
             <article id="schedule">
                 <h2 class="major">Class Schedule</h2>
                 <span class="image main"><img src="images/schedule.png" alt="Class Schedule" /></span>
                 <p>Check out our weekly class schedule below:</p>
-                <div class="table-wrapper">
-                    <table class="alt">
-                        <thead>
-                            <tr>
-                                <th>Day</th>
-                                <th>Class</th>
-                                <th>Time</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monday</td>
-                                <td>Gentle Yoga</td>
-                                <td>8:00 AM</td>
-                            </tr>
-                            <!-- Additional rows can be added here -->
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="3"><em>Bolsters and straps available for use. Mats available for rental.</em></td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
             </article>
 
-            <!-- Classes -->
             <article id="classes">
                 <h2 class="major">Classes</h2>
                 <span class="image main"><img src="images/pic02.jpg" alt="Person performing yoga pose" /></span>
                 <p>GENTLE YOGA | A moderate, easy-going paced class...</p>
-                <!-- Additional class descriptions can be added here -->
             </article>
 
-            <!-- About -->
             <article id="about">
-                <h2 class="major">About Us</h2>
-                <span class="image main"><img src="images/pic03.jpg" alt="Instructor Shana" /></span>
-                <p>Shana has been teaching yoga for over 7 years...</p>
-                <!-- Additional instructor bios can be added here -->
+                <h2 class="major">Our Instructors</h2>
+                <div class="instructor">
+                    <h3>Instructor Helen</h3>
+                    <span class="image main"><img src="images/pic03.jpg" alt="Instructor Helen demonstrating a yoga pose" style="width: 80%;" /></span>
+                    <p>Helen has been teaching yoga for over 7 years...</p>
+                </div>
+                <div class="instructor">
+                    <h3>Instructor Maria</h3>
+                    <span class="image secondary"><img src="images/pic31.jpg" alt="Instructor Maria demonstrating a yoga pose" style="width: 60%;" /></span>
+                    <p>Maria has been teaching yoga for over 5 years...</p>
+                </div>
             </article>
 
-            <!-- Contact -->
             <article id="contact">
                 <h2 class="major">Contact</h2>
-                <form method="post" action="#" data-netlify="true">
+                <form method="post" action="#">
                     <div class="fields">
                         <div class="field half">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="name" id="name" required />
                         </div>
                         <div class="field half">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" required />
                         </div>
                         <div class="field">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
+                            <textarea name="message" id="message" rows="6" required></textarea>
                         </div>
                     </div>
                     <ul class="actions">
@@ -114,27 +98,18 @@
                         <li><input type="reset" value="Reset" /></li>
                     </ul>
                 </form>
-                <ul class="icons">
-                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                    <!-- Additional social links can be added here -->
-                </ul>
             </article>
 
         </div>
 
-        <!-- Footer -->
         <footer id="footer">
-            <p>&copy; Inhale Yoga Studio, 2024. <a href="https://laskaridissa.com" target="_blank">Visit Our Website</a>.</p>
+            <p>&copy; Inhale Yoga Studio, 2024</p>
         </footer>
 
     </div>
 
-    <!-- BG -->
     <div id="bg"></div>
 
-    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
